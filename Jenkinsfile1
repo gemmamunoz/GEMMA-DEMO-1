@@ -12,11 +12,22 @@ pipeline {
                 echo 'Building..'
             }
         }
-        stage('Test') {
+        stage('UnitTest') {
             steps {
-                echo 'Testing..'
+                echo 'Unit Testing..'
             }
         }
+        stage('CodeCoverage') {
+            steps {
+                echo 'Code Coverage..'
+            }
+        }
+        stage('IntegrationTest') {
+            steps {
+                echo 'WaziVTP Integration Test..'
+            }
+        }
+
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
