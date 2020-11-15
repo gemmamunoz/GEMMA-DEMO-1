@@ -9,7 +9,7 @@ pipeline {
         }
         stage('UnitTest') {
             steps {
-                echo 'Unit Testing..'
+                echo 'Unit Testing DEMO..'
             }
         }
         stage('CodeCoverage') {
