@@ -4,7 +4,7 @@ pipeline {
     stages {
            stage('Build') {
             steps {
-                echo 'Building DEMO 22 FEBRERO 2021..'
+                echo 'Building DEMO GISS FEB..'
             }
         }
         stage('UnitTest') {
