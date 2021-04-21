@@ -4,7 +4,7 @@ pipeline {
     stages {
            stage('Build') {
             steps {
-                echo 'Building DEMO PRUEBAv1..'
+                echo 'Building DEMO GEMMA MIERCOLES..'
             }
         }
         stage('UnitTest') {
